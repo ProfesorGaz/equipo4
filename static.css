@@ -1,0 +1,51 @@
+
+body {
+    background-color:crimson ;
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    background-color: bisque;
+    margin: 3px;
+    padding: 5px;
+}
+
+nav li{
+    display: inline-block;
+    width: 15%;
+    padding: 5px 20px;
+    /*background-color: bisque;*/
+    text-align: center;
+
+}
+
+nav a:hover{
+    background-color: blue;
+}
+header{
+    width: 97vw;
+    height: 17vh;
+    background-color:cadetblue;
+    color: beige;
+    margin: 5px;
+    padding: 15px;
+
+}
+
+main {
+    width: 93vw;
+    height: 40vh;
+    background-color:mediumpurple;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 10px;
+    padding: 40px;
+    border-radius: 40px;
+    border: 50px purple;
+}
